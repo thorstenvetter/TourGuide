@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sights">
+
+    <fragment
+        android:id="@+id/nav_sights"
+        android:name="com.example.android.stuttgarttourguide.ui.sights.SightsFragment"
+        android:label="Sights"
+        tools:layout="@layout/fragment_sights" />
+
+    <fragment
+        android:id="@+id/nav_activities"
+        android:name="com.example.android.stuttgarttourguide.ui.activities.ActivitiesFragment"
+        android:label="Activities"
+        tools:layout="@layout/fragment_activities" />
+
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="com.example.android.stuttgarttourguide.ui.restaurants.RestaurantsFragment"
+        android:label="Restaurants"
+        tools:layout="@layout/fragment_restaurant" />
+
+    <fragment
+        android:id="@+id/nav_hotels"
+        android:name="com.example.android.stuttgarttourguide.ui.hotels.HotelsFragment"
+        android:label="Hotels"
+        tools:layout="@layout/fragment_hotels" />
+
+</navigation>
